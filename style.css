@@ -1,0 +1,13 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.name_high {
+  color: orange;
+}
