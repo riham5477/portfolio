@@ -2,12 +2,16 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Ubuntu", sans-serif;
   font-family: "Varela Round", sans-serif;
+  margin: 0;
 }
 
 h1 {
   font-size: 50px;
 }
 
+p {
+  margin-bottom: 30px;
+}
 .name_high {
   color: orange;
 }
@@ -20,4 +24,19 @@ h1 {
 
 .half-width img {
   width: 100%;
+}
+
+.top {
+  background-image: url("images/top-banner.png");
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.h-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, orange, tomato);
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
 }
