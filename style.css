@@ -9,18 +9,22 @@ h1 {
   font-size: 50px;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 p {
   margin-bottom: 30px;
+  color: dimgray;
 }
-.name_high {
+.orng_highl {
   color: orange;
 }
 .half-width {
   width: 40%;
   float: left;
-  margin-left: 50px;
-  padding-left: 20px;
-  margin-bottom: 100px;
+  margin-left: 5%;
+  padding-left: 10px;
 }
 
 .half-width img {
@@ -50,4 +54,30 @@ section {
   height: 500px;
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.single-ex {
+  box-shadow: 10px 10px 30px grey;
+  height: 70%;
+  padding-left: 35px;
+  margin-top: 50px;
+}
+.experience {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-bottom: 50px;
+}
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, orange, tomato);
+  border-image-slice: 1;
+}
+#baby {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
 }
